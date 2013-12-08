@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, QRCodeGeneratorCorrectionLevel)
 
 @interface NSImageView (QRCodeGenerator)
 
-- (void)updateSettingToShowQRCodeImage;
+- (void)updateSettingsToShowQRCodeImage;
 
 @end
 

@@ -78,7 +78,7 @@
 
 @implementation NSImageView (QRCodeGenerator)
 
-- (void)updateSettingToShowQRCodeImage
+- (void)updateSettingsToShowQRCodeImage
 {
     self.wantsLayer = YES;
     NSImageCell *imageCell = [self cell];
@@ -94,7 +94,7 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-        [self updateSettingToShowQRCodeImage];
+        [self updateSettingsToShowQRCodeImage];
     }
     return self;
 }
@@ -103,7 +103,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self updateSettingToShowQRCodeImage];
+        [self updateSettingsToShowQRCodeImage];
     }
     return self;
 }
